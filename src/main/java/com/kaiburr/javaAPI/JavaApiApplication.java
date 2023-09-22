@@ -14,21 +14,5 @@ import java.util.List;
 public class JavaApiApplication {
 
 	public static void main(String[] args) {SpringApplication.run(JavaApiApplication.class, args);}
-
-
-	//@Bean
-	public CommandLineRunner runner(serverRepo repo){
-		return args -> {
-			String id = "125";
-			serverData s1 = new serverData(
-					id,
-					"Tommy",
-					"C#",
-					"html"
-			);
-			System.out.println(s1);
-		};
-
-	}
-
+	
 }
