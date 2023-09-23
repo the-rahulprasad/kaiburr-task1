@@ -2,7 +2,7 @@
     A Rest API implemented using java.
 ## Screenshot
 ![container!](screenshot/container.jpg)
-
+![delete](screenshot/delete_mongo.jpg)
 ## Tech Stack
     JAVA
     Spring Boot
